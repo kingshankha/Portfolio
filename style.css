@@ -1,0 +1,69 @@
+/* 
+
+Project Name: Portfolio
+Client: Self
+Author: Shankha Mullick| "https://www.linkedin.com/in/shankha-mullick-353551198"
+Developed @ Howrah with the help of @ One Month NY
+
+*/
+
+body {
+	/*background: url('../images/cookie-monster.jpg');*/
+	/* the follow is the code to have the image display as a full page */
+	background:url("Engineering.jpg"); 
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-backgr20nd-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#container{
+	background:linear-gradient(to top, rgba(250, 194, 72), rgba(255, 238, 168));
+	width:700px;
+	padding: 15px;
+	margin: 0 auto;
+	color:white;}
+p{font-size: 30px;
+padding:auto;
+}
+
+
+a{	padding:20px;
+	text-decoration: none;
+}
+h1{ padding:20px;
+	padding-top:-30px;
+	font-size: 80px;
+	margin-bottom: -40px;
+}
+h2{ padding: 20px;
+	font-size: 32px;
+	color:#ebfffe;
+}
+h3{
+	padding:20px;
+}
+#Download{
+	display:inline;
+	background:#acf6fb;
+	width:100px;
+	height: auto;
+	color: #66c7cc;
+	padding:15px;
+	margin: -20px 0 5 0
+	font-size: 15px;
+}
+#Hello{
+	margin-bottom:-60px;
+	padding:20px;
+}
+#about{
+	font-size:25px;
+	padding:20px;
+	margin-top:-10px;
+	font-family: 'Libre Baskerville', serif;
+}
+#footer{
+	background:transparent;
